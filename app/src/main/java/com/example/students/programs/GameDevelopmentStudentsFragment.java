@@ -1,4 +1,4 @@
-package com.example.students;
+package com.example.students.programs;
 
 import android.os.Bundle;
 
@@ -8,14 +8,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.students.R;
 
-public class BusinessInformaticsStudentsFragment extends Fragment {
+public class GameDevelopmentStudentsFragment extends Fragment {
 
 
-    public BusinessInformaticsStudentsFragment() {
+    public GameDevelopmentStudentsFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -26,6 +26,6 @@ public class BusinessInformaticsStudentsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_informatics_students, container, false);
+        return inflater.inflate(R.layout.fragment_game_development_students, container, false);
     }
 }

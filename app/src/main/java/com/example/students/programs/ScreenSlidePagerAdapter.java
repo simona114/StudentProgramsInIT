@@ -1,9 +1,13 @@
-package com.example.students;
+package com.example.students.programs;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
+
+import com.example.students.programs.BusinessInformaticsStudentsFragment;
+import com.example.students.programs.ComputerProgrammingStudentsFragment;
+import com.example.students.programs.GameDevelopmentStudentsFragment;
 
 public class ScreenSlidePagerAdapter extends FragmentStateAdapter {
 
