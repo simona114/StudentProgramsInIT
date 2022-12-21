@@ -5,10 +5,6 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
-import com.example.students.programs.BusinessInformaticsStudentsFragment;
-import com.example.students.programs.ComputerProgrammingStudentsFragment;
-import com.example.students.programs.GameDevelopmentStudentsFragment;
-
 public class ScreenSlidePagerAdapter extends FragmentStateAdapter {
 
     public ScreenSlidePagerAdapter(FragmentActivity fa) {
@@ -23,9 +19,9 @@ public class ScreenSlidePagerAdapter extends FragmentStateAdapter {
         if (position == 0) {
             return new BusinessInformaticsStudentsFragment();
         } else if (position == 1) {
-            return new GameDevelopmentStudentsFragment();
-        } else {
             return new ComputerProgrammingStudentsFragment();
+        } else {
+            return new GameDevelopmentStudentsFragment();
         }
     }
 
